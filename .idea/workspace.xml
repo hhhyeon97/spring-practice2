@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e90db0b7-d4da-4718-8bc6-1c6d754b9ce7" name="Changes" comment="영속성 컨텍스트란 무엇일까?">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersistenceTest.java" afterDir="false" />
+    <list default="true" id="e90db0b7-d4da-4718-8bc6-1c6d754b9ce7" name="Changes" comment="영속성 컨텍스트의 기능 테스트">
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntityStateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbafb650-dfc1-4b43-b81b-cb2a7f65d999.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbafb650-dfc1-4b43-b81b-cb2a7f65d999.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,21 +41,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ilcMqoWNGbhcfSI2z6qrkiRsVP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.EntityStateTest.test1.executor": "Run",
+    "Gradle.EntityStateTest.test3.executor": "Debug",
+    "Gradle.EntityStateTest.test5.executor": "Debug",
     "Gradle.EntityTest.test1.executor": "Debug",
     "Gradle.EntityTest.test2.executor": "Run",
     "Gradle.PersistenceTest.test1.executor": "Debug",
@@ -54,6 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -62,8 +81,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PersistenceTest.test1">
-    <configuration name="EntityTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EntityStateTest.test6">
+    <configuration name="EntityStateTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -76,7 +95,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;EntityTest.test1&quot;" />
+            <option value="&quot;EntityStateTest.test1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EntityStateTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;EntityStateTest.test3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -87,7 +130,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="EntityTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +143,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;EntityTest.test2&quot;" />
+            <option value="&quot;EntityStateTest.test5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EntityStateTest.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;EntityStateTest.test6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,11 +202,20 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.EntityStateTest.test3" />
+      <item itemvalue="Gradle.EntityStateTest.test5" />
+      <item itemvalue="Gradle.EntityStateTest.test6" />
+      <item itemvalue="Gradle.EntityStateTest.test1" />
+      <item itemvalue="Gradle.PersistenceTest.test1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EntityStateTest.test6" />
+        <item itemvalue="Gradle.EntityStateTest.test5" />
+        <item itemvalue="Gradle.EntityStateTest.test3" />
+        <item itemvalue="Gradle.EntityStateTest.test1" />
         <item itemvalue="Gradle.PersistenceTest.test1" />
-        <item itemvalue="Gradle.EntityTest.test2" />
-        <item itemvalue="Gradle.EntityTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +235,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720068564236</updated>
-      <workItem from="1720068565274" duration="9808000" />
+      <workItem from="1720068565274" duration="10142000" />
+      <workItem from="1720142008214" duration="1128000" />
+      <workItem from="1720143145790" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -185,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720091025395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="영속성 컨텍스트의 기능 테스트">
+      <option name="closed" value="true" />
+      <created>1720107283208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720107283208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +292,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Entity 이해하기" />
     <MESSAGE value="영속성 컨텍스트란 무엇일까?" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트란 무엇일까?" />
+    <MESSAGE value="영속성 컨텍스트의 기능 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트의 기능 테스트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,5 +301,9 @@
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
